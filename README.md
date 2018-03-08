@@ -3,6 +3,7 @@ Para poder ejecutar este proyecto realiza lo siguiente:
 1. Clonar repositorio:
   
 	SSH -- git clone git@github.com:pamlicona/angular-maquetacion.git
+	
 	HTTPS -- git clone https://github.com/pamlicona/angular-maquetacion.git
 
 2. Instalar dependencias de npm:
