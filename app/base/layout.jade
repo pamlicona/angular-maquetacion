@@ -1,0 +1,22 @@
+doctype html
+html(ng-app="Pichincha",  ng-controller='mainController')
+  head
+    meta(charset='utf8')
+    base(href='/')
+    title Pichincha
+    link(rel='stylesheet', href='homepage/homepage.css')
+    link(rel='stylesheet', href='app.css')
+    link(rel='stylesheet', href='bower_components/angular-carousel/angular-carousel.css')
+  body
+    include header
+    
+    div(ng-view)
+
+    include footer
+
+    script(src='bower_components/angular/angular.js')
+    script(src='bower_components/angular-route/angular-route.js')
+    script(src='bower_components/hammerjs/hammer.min.js')
+    script(src='bower_components/angular-carousel/angular-carousel.js')
+    script(src='app.js')
+    script(src='homepage/homepage.js')

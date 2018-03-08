@@ -1,0 +1,62 @@
+div(ng-carousel='', ng-carousel-name='pichincha-carousel', ng-carousel-loop="true")
+  slidecontainer.carousel-slides
+    slide.carousel-homepage(ng-repeat="url in imagesSlider")
+      img(src="{{ url }}")
+div.carousel-arrow.carousel-arrow-left(ng-click="Carousel.get('pichincha-carousel').previous()")
+div.carousel-arrow.carousel-arrow-right(ng-click="Carousel.get('pichincha-carousel').next()")       
+h2.pregunta-titulo ¿Cómo te podemos ayudar?
+div.como-podemos-ayudar.container-flex-row
+  a
+    span.icon-homepage.quiero-cuenta
+    p
+      span Quiero una cuenta para
+      br
+      | Ahorro e Inversión
+  a
+    span.icon-homepage.deseo-tc
+    p
+      span Deseo una
+      br
+      | Tarjeta de Crédito
+  a
+    span.icon-homepage.buscando
+    p
+      span Estoy buscando un
+      br
+      | Préstamo  
+div.realiza.container-flex-row
+  a.container-flex-row
+    span.icon-homepage-realiza.pse-tarjeta-credito
+    p
+      span Realiza con PSE el
+        br
+        | pago de tu
+      br
+      | Tarjeta de Crédito
+  a.container-flex-row
+    span.icon-homepage-realiza.pse-credito-personal
+    p
+      span Realiza con PSE el
+        br
+        | pago de tu
+      br
+      | Crédito Personal
+  a.container-flex-row
+    span.icon-homepage-realiza.pse-tarjeta-prepago
+    p
+      span Realiza con PSE el
+        br
+        | pago de tu
+      br
+      | Tarjeta de Prepago  
+  a.container-flex-row
+    span.icon-homepage-realiza.compras-internacionales
+    p
+      span Para compras
+        br
+        | internacionales
+      br
+      | Pichincha Box
+div.movil-banner.container-flex-row
+  img(src="/assets/images/banner_mobileapp.png")
+  span
